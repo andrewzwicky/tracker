@@ -294,6 +294,16 @@ color: red;
 	margin-bottom: 3px;
 	columns: 5
 }
+#location_section_header {
+    color: lightgrey;
+	font-size: 20px;
+	font-weight: 3000;
+	text-shadow:
+		-1px -1px 0 black,
+		1px -1px 0 black,
+		-1px 1px 0 black,
+		1px 1px 0 black;
+}
 .area_titles {
 	font-size: 20px;
 	float: left;
@@ -362,7 +372,7 @@ color: red;
 }
 .checkSummaryColumn {
 	margin-top:10px;
-	left:20px;
+	margin-left:30px;
 	position:relative;
 	float: left;
 	height: 300px;
@@ -530,6 +540,7 @@ color: red;
 #linsoColumn {
 	position: relative;
 	margin-top:10px;
+    margin-left:20px;
 	float: left;
 	width: 280px;
 }
@@ -547,7 +558,7 @@ color: red;
 .dungcolumn {
 	margin-top:10px;
   float: left;
-  width:100px;
+  width:110px;
 }
 .no_span {
 	

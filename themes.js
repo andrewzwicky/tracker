@@ -303,9 +303,9 @@ function dark_normie() {
 	if(document.getElementById(shadowPlacement +"_req3") != null) {document.getElementById(shadowPlacement +"_req3").src = Game.hover_boots_img; }
 	if(document.getElementById(shadowPlacement +"_req4") != null) {document.getElementById(shadowPlacement +"_req4").src = Game.bomb_img; }
 	if(document.getElementById(shadowPlacement +"_req5") != null) {document.getElementById(shadowPlacement +"_req5").src = Game.hookshot_img; }
-	document.getElementById("normalColumn1").style.width="97px";
-	document.getElementById("normalColumn2").style.width="97px";
-	document.getElementById("normalColumn3").style.width="97px";
+	document.getElementById("normalColumn1").style.width="110px";
+	document.getElementById("normalColumn2").style.width="110px";
+	document.getElementById("normalColumn3").style.width="110px";
 	document.getElementById("woth_info").style.left="0px";
 	document.getElementById("timer").style.left="-140px";
 	document.getElementById("tokens_acquired").style.left="732px";
