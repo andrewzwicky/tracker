@@ -18,14 +18,14 @@ function process_inputs() {
 		hinted = false;
 		if (isLowerCase(document.getElementById(key).value.charAt(0)) 
 		 && isUpperCase(document.getElementById(key).value.charAt(document.getElementById(key).value.length-1))
-		 && document.getElementById(key).value.length > 0) {	
+		 && document.getElementById(key).value.length == 3) {	
 			peeked = true;
 			document.getElementById(key).value = document.getElementById(key).value.toLowerCase();
 			console.log(document.getElementById(key).value)
 		}
 		else if (isUpperCase(document.getElementById(key).value.charAt(0)) 
 			  && isLowerCase(document.getElementById(key).value.charAt(document.getElementById(key).value.length - 1)) 
-			  && document.getElementById(key).value.length > 0) {
+			  && document.getElementById(key).value.length == 3) {
 			
 			hinted = true;
 			document.getElementById(key).value = document.getElementById(key).value.toLowerCase();
