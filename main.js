@@ -67,7 +67,6 @@ function midUpdate() {
 function slowUpdate() {
 	updateInputs(); //implements custom inputs
 	saveStuff(); //save current settings for next use of tracker
-	refreshVersion(); //will highlight patch notes that haven't been read yet
 	
 	if (!nerfed) {
 		WotHItems = [];
