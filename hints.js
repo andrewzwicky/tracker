@@ -562,7 +562,7 @@ function handleAlternateHintInput() {
 					else {
 						str = capitalizeFirstLetter(str);
 					}
-					if (k == 0) { if (lines[j].endsWith(" " + inputs[k]) && Check[hintIndexes[i]] == "unknown") {thisIsHinted = true; document.getElementById("text_" + hintIndexes[i]).dispatchEvent(new Event('mousedown')); thisIsHinted = false; } }
+					if (k == 0) { if (lines[j].endsWith(" " + inputs[k]) && Check[hintIndexes[i]] == "unknown" && !hintIndexes[i].endsWith("Spot")) {thisIsHinted = true; document.getElementById("text_" + hintIndexes[i]).dispatchEvent(new Event('mousedown')); thisIsHinted = false; } }
 					else if (k == 1) { if (lines[j].endsWith(" " + inputs[k]) && Check[hintIndexes[i]] == "unknown") {thisIsAKey = true; thisIsHinted = true; document.getElementById("text_" + hintIndexes[i]).dispatchEvent(new Event('mousedown')); thisIsAKey = false;thisIsHinted = false; } }
 					else if (k == 2) { if (lines[j].endsWith(" " + inputs[k]) && Check[hintIndexes[i]] == "unknown") {thisIsABossKey = true; thisIsHinted = true; document.getElementById("text_" + hintIndexes[i]).dispatchEvent(new Event('mousedown')); thisIsABossKey = false; thisIsHinted = false; } }
 					else {
